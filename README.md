@@ -3,3 +3,7 @@
 
 # Parallax Background
  Infinite background with Parallax effect
+ 
+<img src="https://raw.githubusercontent.com/kursaterdogan/Parallax-Background/master/Screenshots/Screenshot%201.png" width="338" height="191">
+
+<img src="https://raw.githubusercontent.com/kursaterdogan/Parallax-Background/master/Screenshots/Screenshot%200.png" width="401" height="110">
