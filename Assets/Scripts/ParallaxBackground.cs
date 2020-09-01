@@ -4,7 +4,7 @@ using UnityEngine;
 public class ParallaxBackground : BaseObject
 {
     private float _startPos, _length, _temp, _dist;
-    public new GameObject myCamera;
+    public GameObject myCamera;
     public float parallaxEffect;
 
     public override void BaseObjectStart()

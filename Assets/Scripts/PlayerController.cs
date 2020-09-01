@@ -8,7 +8,9 @@ public class PlayerController : BaseObject
     [SerializeField] private float jumpY = 5f;
     [SerializeField] private bool isGrounded;
     private float _dirX;
+
     private Rigidbody2D _myRigidbody2D;
+    // private Vector2 _position;
 
     public override void BaseObjectStart()
     {
@@ -24,6 +26,7 @@ public class PlayerController : BaseObject
     private void Move()
     {
         _dirX = Input.GetAxis("Horizontal") * playerMoveSpeed * Time.deltaTime;
+        // _position = new Vector2(transform.position.x, transform.position.y);
         transform.position = new Vector2(transform.position.x + _dirX, transform.position.y);
     }
 
